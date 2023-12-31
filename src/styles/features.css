@@ -23,7 +23,8 @@
     padding: 50px;
     margin: 10px;
     border-radius: 30px;
-    flex: 0 1 40%;
+    flex: 0 1 50%;
+    box-sizing: border-box;
 }
 .feature .title {
     font-size: 30px;

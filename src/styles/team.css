@@ -19,14 +19,13 @@ p.title {
     border-radius: 20px;
     background: #e5eaff;
     box-shadow:  5px 5px 11px #b9becf,
-                 -5px -5px 11px #ffffff;
+                 -5px -5px 11px #fafafa;
 }
 .img-container {
     position: relative;
     width: 200px;
     padding-bottom: 200px;
     border-radius: 200%;
-    outline: 1px solid #4CAF50;
 }
 .img-container img {
     position: absolute;

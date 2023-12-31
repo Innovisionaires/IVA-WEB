@@ -14,6 +14,11 @@
 .solution-text {
     flex: 1;
 }
+.solution-text p.title {
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 20px;
+}
 .solution-action-container {
     display: flex;
     justify-content: center;
@@ -67,5 +72,10 @@
 @media screen and (max-width: 600px) {
     .solution {
         padding: 100px 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .solution {
+        padding: 100px 30px;
     }
 }

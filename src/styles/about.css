@@ -16,9 +16,11 @@
 .text-container {
     flex: 1;
 }
-.text-container h1 {
+.text-container p.title {
     color: #1E1E1E;
     font-size: 46px;
+    text-align: left;
+    margin: 30px 0;
 }
 .about .badge {
     padding: 10px 20px;
@@ -34,5 +36,10 @@
 @media screen and (max-width: 600px) {
     .about {
         padding: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .about {
+        padding: 30px;
     }
 }

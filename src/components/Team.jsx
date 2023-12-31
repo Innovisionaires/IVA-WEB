@@ -42,7 +42,7 @@ const Team = () => {
                     <div className="img-container">
                         <img src={ph} alt="" />
                     </div>
-                    <p className="username">Ebuka</p>
+                    <p className="username">Chibuzor</p>
                     <p className="role">Mobile Developer</p>
                 </div>
 

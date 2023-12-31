@@ -1,5 +1,5 @@
 .hero {
-    padding: 70px 30px 30px;
+    padding: 70px 25px;
 }
 .hero-title {
     text-align: center;
@@ -11,8 +11,6 @@
     font-size: 68px;
     font-style: normal;
     font-weight: 700;
-    line-height: 74px; /* 108.824% */
-    letter-spacing: -2.04px;
     padding-top: 70px;
     margin: 0;
 }
@@ -72,7 +70,10 @@
     width: 100%;
 }
 @media screen and (max-width: 540px) {
+    .hero {
+        padding: 25px;
+    }
     .hero-title p.title {
-        font-size: 50px;
+        font-size: 35px;
     }
 }

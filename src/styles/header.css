@@ -69,6 +69,7 @@ nav .close {
     color: #fff;
     float: right;
     padding: 15px;
+    font-size: 30px;
     cursor: pointer;
 }
 nav ul {
