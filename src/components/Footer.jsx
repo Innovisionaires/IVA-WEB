@@ -9,8 +9,8 @@ const Footer = () => {
         <footer>
             <img src={Logo} alt="" />
             <ul>
-                <li><a href="">Join our waitlist</a></li>
-                <li><a href="">Be an ambassador</a></li>
+                <li><a href="/">Join our waitlist</a></li>
+                <li><a href="/">Be an ambassador</a></li>
             </ul>
             <div className="socials">
                 <p>Follow us</p>

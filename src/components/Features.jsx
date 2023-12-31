@@ -3,13 +3,6 @@ import FeatureImage from '../assets/app.png';
 
 
 const Features = () => {
-    const featuresData = [
-        {
-            "title": "",
-            "subtitle": "",
-            "image": ""
-        }
-    ]
 
     return (
         <div className='features' id='features'>
