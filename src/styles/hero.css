@@ -1,0 +1,78 @@
+.hero {
+    padding: 70px 30px 30px;
+}
+.hero-title {
+    text-align: center;
+    margin: 0 50px 0 50px;
+}
+.hero-title p.title {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 108.824% */
+    letter-spacing: -2.04px;
+    padding-top: 70px;
+    margin: 0;
+}
+.hero-title p.sub-title {
+    color: #434343;
+    text-align: center;
+    font-family: General Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.2px; /* 151.25% */
+}
+.hero-title p span {
+    background-color: #a3dba4;
+}
+.waitlist-div {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+}
+.waitlist {
+    display: flex;
+    justify-content: center;
+    padding: 4px 4px 4px 24px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    border: 1px solid #a1a0a0;
+}
+.waitlist:hover {
+    outline: 2px solid #4CAF50;
+}
+.waitlist input {
+    width: 100%;
+    border: none;
+    background: #FAFAFA;
+    border: none;
+    outline: none;
+}
+.waitlist button {
+    border-radius: 30px;
+    background: #4CAF50;
+    color: #FAFAFA;
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.waitlist button:focus {
+    border: none;
+    outline: none;
+}
+.hero-image {
+    text-align: center;
+}
+.hero-image img {
+    width: 100%;
+}
+@media screen and (max-width: 540px) {
+    .hero-title p.title {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,33 @@
+.features {
+    background-color: #222222;
+    padding: 150px 20px 100px;
+    color: #fff;
+    text-align: center;
+}
+.features span {
+    border-radius: 183px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px 20px;
+}
+.features h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    flex: 0 1 40%;
+}
+.feature .title {
+    font-size: 30px;
+}
+.feature .sub-title {
+    font-size: 20px;
+}

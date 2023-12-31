@@ -1,0 +1,45 @@
+.team {
+    padding: 100px 20px;
+    background: #e5eaff;
+}
+p.title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+.team-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.user {
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background: #e5eaff;
+    box-shadow:  5px 5px 11px #b9becf,
+                 -5px -5px 11px #ffffff;
+}
+.img-container {
+    position: relative;
+    width: 200px;
+    padding-bottom: 200px;
+    border-radius: 200%;
+    outline: 1px solid #4CAF50;
+}
+.img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 200%;
+}
+.username {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.role {
+    color: #555555;
+    margin-top: 5px;
+}

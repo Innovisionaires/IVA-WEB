@@ -1,0 +1,108 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color: #fff;
+    z-index: 2;
+    box-sizing: border-box;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+header ul li span {
+    text-decoration: none;
+    color: #000;
+}
+header .brand-name li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4CAF50;
+}
+header .brand-links {
+    display: flex;
+}
+header .brand-links li span {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+header .brand-links li span:hover {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 50px;
+}
+header .cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .cta li span {
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+header span.menu-bar {
+    font-size: 40px;
+    cursor: pointer;
+}
+.active {
+    color: #4CAF50;
+    font-weight: bold;
+}
+nav {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background: #4CAF50;
+}
+nav .close {
+    color: #fff;
+    float: right;
+    padding: 15px;
+    cursor: pointer;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 50px;
+}
+nav ul li {
+    padding: 0;
+}
+nav ul li span {
+    display: block;
+    margin: 5px 20px;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+nav ul li span.active, nav ul li span:hover {
+    color: #4CAF50;
+    background: #fff;
+}
+@media screen and (max-width: 900px) {
+    header .brand-links li span {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 840px) {
+    header .brand-links {
+        display: none;
+    }
+}
+@media screen and (min-width: 840px) {
+    header .menu-bar {
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+.solution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+.solution .badge {
+    padding: 10px 20px;
+    border-radius: 183px;
+    background: rgba(195, 228, 197, 0.45);
+    color: #4CAF50;
+}
+.solution-text {
+    flex: 1;
+}
+.solution-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    background: #222222;
+    padding: 100px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.solution-courses {
+    display: flex;
+    padding: 8px 0px 7.03px 0px;
+    gap: 7px;
+    margin-right: 6px;
+    white-space: nowrap;
+    align-items: center;
+    
+}
+.solution-courses-1 {
+    animation: infiniteScroll 10s linear infinite;
+}
+.solution-courses-2 {
+    animation: infiniteScrollReverse 10s linear infinite;
+}
+.course {
+    display: flex;
+    width: 121.808px;
+    padding: 30.694px 0px 30.178px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10.323px;
+    border: 0.2px solid #373737;
+    background: #FFEAAE;
+}
+@keyframes infiniteScroll {
+    from {transform: translateX(0) }
+    to {transform: translateX(calc(0px - 50%));}
+}
+@keyframes infiniteScrollReverse {
+    from {transform: translateX(calc(0px - 50%));}
+    to {transform: translateX(0) }
+}
+
+@media screen and (max-width: 768px) {
+    .solution {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .solution {
+        padding: 100px 50px;
+    }
+}
